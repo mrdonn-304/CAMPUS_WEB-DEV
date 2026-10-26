@@ -1,156 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Joziah Charlton | About Me</title>
-<style>
-:root {
-	color-scheme: light;
-	font-family: Arial, sans-serif;
-	color: #1f2937;
-	background: #f3f4f6;
-}
-
-body {
-	margin: 0;
-	line-height: 1.6;
-}
-
-header {
-	padding: 3rem 1.5rem 2rem;
-	color: #ffffff;
-	background: #111827;
-	text-align: center;
-}
-
-header h1 {
-	margin: 0;
-	font-size: clamp(2rem, 5vw, 3.5rem);
-}
-
-header p {
-	margin: 0.5rem 0 0;
-	color: #d1d5db;
-}
-
-nav {
-	padding: 0.75rem 1rem;
-	background: #1f2937;
-}
-
-nav ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 0.5rem 1.5rem;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-nav a {
-	color: #ffffff;
-	font-weight: 700;
-}
-
-nav a:hover,
-nav a:focus-visible {
-	color: #93c5fd;
-}
-
-main {
-	width: min(100% - 2rem, 900px);
-	margin: 2rem auto;
-}
-
-section {
-	margin-bottom: 1.5rem;
-	padding: clamp(1.25rem, 4vw, 2rem);
-	border: 1px solid #e5e7eb;
-	border-radius: 0.75rem;
-	background: #ffffff;
-	box-shadow: 0 4px 16px rgb(17 24 39 / 8%);
-}
-
-section h2 {
-	margin-top: 0;
-	color: #111827;
-}
-
-.profile {
-	display: block;
-	width: 144px;
-	height: 144px;
-	margin: 1.5rem auto 0;
-	border-radius: 50%;
-}
-
-footer {
-	padding: 1.5rem;
-	color: #d1d5db;
-	background: #111827;
-	text-align: center;
-}
-
-footer p {
-	margin: 0;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Joziah Charlton</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<h1>Joziah Charlton</h1>
-<p>Student, Entrepreneur, and Future Web Developer</p>
-</header>
 
-<nav aria-label="About page navigation">
-<ul>
-<li><a href="#about">About Me</a></li>
-<li><a href="#brand">My Brand</a></li>
-<li><a href="#goals">Goals</a></li>
-<li><a href="index.html">Home</a></li>
-<li><a href="projects.html">Projects</a></li>
-</ul>
-</nav>
+  <header>
+    <h1>Joziah Charlton</h1>
+    <p>Student, Entrepreneur, and Future Web Developer</p>
+    <nav aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html" aria-current="page">About</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+    </nav>
+  </header>
 
-<main>
-<section id="about">
-<h2>About Me</h2>
-<p>
-My name is Joziah Charlton. I am interested in web development, business,
-technology, and fashion. I enjoy learning new skills and building projects
-that help me grow professionally.
-</p>
-<img class="profile" src="profile.svg" width="144" height="144" alt="Initials JC representing Joziah Charlton">
-</section>
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        My name is Joziah Charlton. I am interested in web development, business,
+        technology, and fashion. I enjoy learning new skills and building projects
+        that help me grow professionally.
+      </p>
+      <img class="profile-img" src="profile.svg" width="144" height="144" alt="Initials JC representing Joziah Charlton">
+    </section>
 
-<section id="brand">
-<h2>My Brand: ItKau$t</h2>
-<article>
-<h3>What ItKau$t Represents</h3>
-<p>
-ItKau$t is a clothing and business brand focused on motivation, self-worth,
-authenticity, and achieving success. The brand encourages people to believe
-in themselves and pursue their goals.
-</p>
-</article>
-</section>
+    <section id="brand" class="card">
+      <h2>My Brand: ItKau$t</h2>
+      <article>
+        <h3>What ItKau$t Represents</h3>
+        <p>
+          ItKau$t is a clothing and business brand focused on motivation, self-worth,
+          authenticity, and achieving success. The brand encourages people to believe
+          in themselves and pursue their goals.
+        </p>
+      </article>
+    </section>
 
-<section id="goals">
-<h2>My Goals</h2>
-<h3>Things I Want to Accomplish</h3>
-<ul>
-<li>Become skilled in web development</li>
-<li>Grow the ItKau$t brand</li>
-<li>Build innovative digital projects</li>
-<li>Expand my business knowledge</li>
-</ul>
-</section>
-</main>
+    <section id="goals" class="card">
+      <h2>My Goals</h2>
+      <h3>Things I Want to Accomplish</h3>
+      <ul>
+        <li>Become skilled in web development</li>
+        <li>Grow the ItKau$t brand</li>
+        <li>Build innovative digital projects</li>
+        <li>Expand my business knowledge</li>
+      </ul>
+    </section>
+  </main>
 
-<footer>
-<p>&copy; 2026 Joziah Charlton</p>
-</footer>
+  <footer>
+    <p>&copy; 2026 Joziah Charlton. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
