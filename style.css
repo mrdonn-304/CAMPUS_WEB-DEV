@@ -6,6 +6,7 @@ body {
   color: #1e293b;
   background-color: #f8fafc;
 }
+
 header {
   background-color: #0f172a;
   color: #ffffff;
@@ -14,16 +15,12 @@ header {
   margin-bottom: 2.5rem;
   border-bottom: 5px solid #d97706;
 }
+
 header h1 {
   margin: 0 0 0.5rem 0;
   font-size: 2.25rem;
-  letter-spacing: 0.5px;
 }
-header p {
-  margin: 0;
-  color: #cbd5e1;
-  font-size: 1.1rem;
-}
+
 nav {
   margin-top: 1.5rem;
   display: flex;
@@ -31,21 +28,25 @@ nav {
   justify-content: center;
   gap: 0.75rem;
 }
+
 main {
   width: 90%;
   max-width: 850px;
   margin: 0 auto 3.5rem auto;
 }
+
 h2 {
   color: #0f172a;
   margin-top: 0;
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 0.4rem;
 }
+
 h3 {
   color: #b45309;
   margin-bottom: 0.5rem;
 }
+
 footer {
   background-color: #0f172a;
   color: #94a3b8;
@@ -54,10 +55,11 @@ footer {
   margin-top: 3.5rem;
   border-top: 3px solid #d97706;
 }
+
 footer p {
   margin: 0;
-  font-size: 0.95rem;
 }
+
 .card {
   background-color: #ffffff;
   margin: 1.75rem 0;
@@ -67,6 +69,7 @@ footer p {
   border-radius: 8px;
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
 }
+
 .nav-link {
   color: #ffffff;
   text-decoration: none;
@@ -78,22 +81,14 @@ footer p {
   background-color: #1e293b;
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
+
 .nav-link:hover,
 .nav-link[aria-current="page"] {
   background-color: #d97706;
   color: #ffffff;
   border-color: #b45309;
 }
-.profile-img {
-  display: block;
-  width: 140px;
-  height: 140px;
-  margin: 1.5rem auto 0;
-  border-radius: 50%;
-  border: 4px solid #d97706;
-  padding: 4px;
-  background-color: #ffffff;
-}
+
 .preview-img {
   display: block;
   max-width: 100%;
@@ -102,18 +97,17 @@ footer p {
   border-radius: 6px;
   border: 1px solid #cbd5e1;
 }
+
 #welcome-section {
   border-top: 4px solid #0f172a;
 }
-#brand {
-  background-color: #fffbeb;
-  border-left-color: #b45309;
-}
+
 #project-list {
   list-style-type: square;
   padding-left: 1.5rem;
   margin-top: 0.75rem;
 }
+
 #project-list li {
   margin-bottom: 0.35rem;
 }
